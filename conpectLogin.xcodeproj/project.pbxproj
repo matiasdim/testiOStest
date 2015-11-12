@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6900D5751BF4E20200CB8545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D5741BF4E20200CB8545 /* main.m */; };
+		6900D5781BF4E20200CB8545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D5771BF4E20200CB8545 /* AppDelegate.m */; };
+		6900D57B1BF4E20200CB8545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D57A1BF4E20200CB8545 /* ViewController.m */; };
+		6900D57E1BF4E20200CB8545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6900D57C1BF4E20200CB8545 /* Main.storyboard */; };
+		6900D5811BF4E20200CB8545 /* conpectLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6900D57F1BF4E20200CB8545 /* conpectLogin.xcdatamodeld */; };
+		6900D5831BF4E20200CB8545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6900D5821BF4E20200CB8545 /* Assets.xcassets */; };
+		6900D5861BF4E20200CB8545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6900D5841BF4E20200CB8545 /* LaunchScreen.storyboard */; };
+		6900D5911BF4E20200CB8545 /* conpectLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D5901BF4E20200CB8545 /* conpectLoginTests.m */; };
+		6900D59C1BF4E20200CB8545 /* conpectLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D59B1BF4E20200CB8545 /* conpectLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6900D58D1BF4E20200CB8545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6900D5681BF4E20200CB8545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6900D56F1BF4E20200CB8545;
+			remoteInfo = conpectLogin;
+		};
+		6900D5981BF4E20200CB8545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6900D5681BF4E20200CB8545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6900D56F1BF4E20200CB8545;
+			remoteInfo = conpectLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6900D5701BF4E20200CB8545 /* conpectLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = conpectLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6900D5741BF4E20200CB8545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6900D5761BF4E20200CB8545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6900D5771BF4E20200CB8545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6900D5791BF4E20200CB8545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6900D57A1BF4E20200CB8545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6900D57D1BF4E20200CB8545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6900D5801BF4E20200CB8545 /* conpectLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = conpectLogin.xcdatamodel; sourceTree = "<group>"; };
+		6900D5821BF4E20200CB8545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6900D5851BF4E20200CB8545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6900D5871BF4E20200CB8545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6900D58C1BF4E20200CB8545 /* conpectLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = conpectLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6900D5901BF4E20200CB8545 /* conpectLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = conpectLoginTests.m; sourceTree = "<group>"; };
+		6900D5921BF4E20200CB8545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6900D5971BF4E20200CB8545 /* conpectLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = conpectLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6900D59B1BF4E20200CB8545 /* conpectLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = conpectLoginUITests.m; sourceTree = "<group>"; };
+		6900D59D1BF4E20200CB8545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6900D56D1BF4E20200CB8545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6900D5891BF4E20200CB8545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6900D5941BF4E20200CB8545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6900D5671BF4E20200CB8545 = {
+			isa = PBXGroup;
+			children = (
+				6900D5721BF4E20200CB8545 /* conpectLogin */,
+				6900D58F1BF4E20200CB8545 /* conpectLoginTests */,
+				6900D59A1BF4E20200CB8545 /* conpectLoginUITests */,
+				6900D5711BF4E20200CB8545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6900D5711BF4E20200CB8545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6900D5701BF4E20200CB8545 /* conpectLogin.app */,
+				6900D58C1BF4E20200CB8545 /* conpectLoginTests.xctest */,
+				6900D5971BF4E20200CB8545 /* conpectLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6900D5721BF4E20200CB8545 /* conpectLogin */ = {
+			isa = PBXGroup;
+			children = (
+				6900D5761BF4E20200CB8545 /* AppDelegate.h */,
+				6900D5771BF4E20200CB8545 /* AppDelegate.m */,
+				6900D5791BF4E20200CB8545 /* ViewController.h */,
+				6900D57A1BF4E20200CB8545 /* ViewController.m */,
+				6900D57C1BF4E20200CB8545 /* Main.storyboard */,
+				6900D5821BF4E20200CB8545 /* Assets.xcassets */,
+				6900D5841BF4E20200CB8545 /* LaunchScreen.storyboard */,
+				6900D5871BF4E20200CB8545 /* Info.plist */,
+				6900D57F1BF4E20200CB8545 /* conpectLogin.xcdatamodeld */,
+				6900D5731BF4E20200CB8545 /* Supporting Files */,
+			);
+			path = conpectLogin;
+			sourceTree = "<group>";
+		};
+		6900D5731BF4E20200CB8545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6900D5741BF4E20200CB8545 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6900D58F1BF4E20200CB8545 /* conpectLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				6900D5901BF4E20200CB8545 /* conpectLoginTests.m */,
+				6900D5921BF4E20200CB8545 /* Info.plist */,
+			);
+			path = conpectLoginTests;
+			sourceTree = "<group>";
+		};
+		6900D59A1BF4E20200CB8545 /* conpectLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6900D59B1BF4E20200CB8545 /* conpectLoginUITests.m */,
+				6900D59D1BF4E20200CB8545 /* Info.plist */,
+			);
+			path = conpectLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6900D56F1BF4E20200CB8545 /* conpectLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6900D5A01BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLogin" */;
+			buildPhases = (
+				6900D56C1BF4E20200CB8545 /* Sources */,
+				6900D56D1BF4E20200CB8545 /* Frameworks */,
+				6900D56E1BF4E20200CB8545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = conpectLogin;
+			productName = conpectLogin;
+			productReference = 6900D5701BF4E20200CB8545 /* conpectLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6900D58B1BF4E20200CB8545 /* conpectLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6900D5A31BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLoginTests" */;
+			buildPhases = (
+				6900D5881BF4E20200CB8545 /* Sources */,
+				6900D5891BF4E20200CB8545 /* Frameworks */,
+				6900D58A1BF4E20200CB8545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6900D58E1BF4E20200CB8545 /* PBXTargetDependency */,
+			);
+			name = conpectLoginTests;
+			productName = conpectLoginTests;
+			productReference = 6900D58C1BF4E20200CB8545 /* conpectLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6900D5961BF4E20200CB8545 /* conpectLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6900D5A61BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLoginUITests" */;
+			buildPhases = (
+				6900D5931BF4E20200CB8545 /* Sources */,
+				6900D5941BF4E20200CB8545 /* Frameworks */,
+				6900D5951BF4E20200CB8545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6900D5991BF4E20200CB8545 /* PBXTargetDependency */,
+			);
+			name = conpectLoginUITests;
+			productName = conpectLoginUITests;
+			productReference = 6900D5971BF4E20200CB8545 /* conpectLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6900D5681BF4E20200CB8545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AllianceTech;
+				TargetAttributes = {
+					6900D56F1BF4E20200CB8545 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6900D58B1BF4E20200CB8545 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6900D56F1BF4E20200CB8545;
+					};
+					6900D5961BF4E20200CB8545 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6900D56F1BF4E20200CB8545;
+					};
+				};
+			};
+			buildConfigurationList = 6900D56B1BF4E20200CB8545 /* Build configuration list for PBXProject "conpectLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6900D5671BF4E20200CB8545;
+			productRefGroup = 6900D5711BF4E20200CB8545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6900D56F1BF4E20200CB8545 /* conpectLogin */,
+				6900D58B1BF4E20200CB8545 /* conpectLoginTests */,
+				6900D5961BF4E20200CB8545 /* conpectLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6900D56E1BF4E20200CB8545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6900D5861BF4E20200CB8545 /* LaunchScreen.storyboard in Resources */,
+				6900D5831BF4E20200CB8545 /* Assets.xcassets in Resources */,
+				6900D57E1BF4E20200CB8545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6900D58A1BF4E20200CB8545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6900D5951BF4E20200CB8545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6900D56C1BF4E20200CB8545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6900D57B1BF4E20200CB8545 /* ViewController.m in Sources */,
+				6900D5781BF4E20200CB8545 /* AppDelegate.m in Sources */,
+				6900D5811BF4E20200CB8545 /* conpectLogin.xcdatamodeld in Sources */,
+				6900D5751BF4E20200CB8545 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6900D5881BF4E20200CB8545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6900D5911BF4E20200CB8545 /* conpectLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6900D5931BF4E20200CB8545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6900D59C1BF4E20200CB8545 /* conpectLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6900D58E1BF4E20200CB8545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6900D56F1BF4E20200CB8545 /* conpectLogin */;
+			targetProxy = 6900D58D1BF4E20200CB8545 /* PBXContainerItemProxy */;
+		};
+		6900D5991BF4E20200CB8545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6900D56F1BF4E20200CB8545 /* conpectLogin */;
+			targetProxy = 6900D5981BF4E20200CB8545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6900D57C1BF4E20200CB8545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6900D57D1BF4E20200CB8545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6900D5841BF4E20200CB8545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6900D5851BF4E20200CB8545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6900D59E1BF4E20200CB8545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6900D59F1BF4E20200CB8545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6900D5A11BF4E20200CB8545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = conpectLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6900D5A21BF4E20200CB8545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = conpectLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6900D5A41BF4E20200CB8545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = conpectLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conpectLogin.app/conpectLogin";
+			};
+			name = Debug;
+		};
+		6900D5A51BF4E20200CB8545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = conpectLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conpectLogin.app/conpectLogin";
+			};
+			name = Release;
+		};
+		6900D5A71BF4E20200CB8545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = conpectLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = conpectLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6900D5A81BF4E20200CB8545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = conpectLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = conpectLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6900D56B1BF4E20200CB8545 /* Build configuration list for PBXProject "conpectLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6900D59E1BF4E20200CB8545 /* Debug */,
+				6900D59F1BF4E20200CB8545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6900D5A01BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6900D5A11BF4E20200CB8545 /* Debug */,
+				6900D5A21BF4E20200CB8545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6900D5A31BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6900D5A41BF4E20200CB8545 /* Debug */,
+				6900D5A51BF4E20200CB8545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6900D5A61BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6900D5A71BF4E20200CB8545 /* Debug */,
+				6900D5A81BF4E20200CB8545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6900D57F1BF4E20200CB8545 /* conpectLogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6900D5801BF4E20200CB8545 /* conpectLogin.xcdatamodel */,
+			);
+			currentVersion = 6900D5801BF4E20200CB8545 /* conpectLogin.xcdatamodel */;
+			path = conpectLogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6900D5681BF4E20200CB8545 /* Project object */;
+}
