@@ -16,6 +16,28 @@
 		6900D5861BF4E20200CB8545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6900D5841BF4E20200CB8545 /* LaunchScreen.storyboard */; };
 		6900D5911BF4E20200CB8545 /* conpectLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D5901BF4E20200CB8545 /* conpectLoginTests.m */; };
 		6900D59C1BF4E20200CB8545 /* conpectLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D59B1BF4E20200CB8545 /* conpectLoginUITests.m */; };
+		6900D5AB1BF4E5F000CB8545 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D5AA1BF4E5F000CB8545 /* SignUpViewController.m */; };
+		6900D5B11BF4EFCC00CB8545 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6900D5AF1BF4EFCC00CB8545 /* FBSDKCoreKit.framework */; };
+		6900D5B21BF4EFCC00CB8545 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6900D5B01BF4EFCC00CB8545 /* FBSDKLoginKit.framework */; };
+		6900D5B51BF4FA7300CB8545 /* AuthenticatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D5B41BF4FA7300CB8545 /* AuthenticatedViewController.m */; };
+		6900D5B91BF5470800CB8545 /* FBSDKController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900D5B81BF5470800CB8545 /* FBSDKController.m */; };
+		69696FF91C04F4C600CCF629 /* TwitterLoginControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69696FF81C04F4C600CCF629 /* TwitterLoginControllerTests.m */; };
+		69696FFB1C05070000CCF629 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E489B31BFE2E69000C68C1 /* Fabric.framework */; };
+		69696FFC1C05070000CCF629 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E489B41BFE2E69000C68C1 /* TwitterKit.framework */; };
+		69696FFD1C05070000CCF629 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E489B61BFE2E69000C68C1 /* TwitterCore.framework */; };
+		69696FFE1C05070000CCF629 /* TwitterKitResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E489B51BFE2E69000C68C1 /* TwitterKitResources.bundle */; };
+		696970001C05091D00CCF629 /* FBSDKControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69696FFF1C05091D00CCF629 /* FBSDKControllerTests.m */; };
+		696970011C05096500CCF629 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6900D5AF1BF4EFCC00CB8545 /* FBSDKCoreKit.framework */; };
+		696970021C05096500CCF629 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6900D5B01BF4EFCC00CB8545 /* FBSDKLoginKit.framework */; };
+		698E87CD1BFE6B7900185002 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 698E87CC1BFE6B7900185002 /* MBProgressHUD.m */; };
+		69E489B11BFE19D7000C68C1 /* TwitterLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E489B01BFE19D7000C68C1 /* TwitterLoginController.m */; };
+		69E489B71BFE2E69000C68C1 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E489B31BFE2E69000C68C1 /* Fabric.framework */; };
+		69E489B81BFE2E69000C68C1 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E489B41BFE2E69000C68C1 /* TwitterKit.framework */; };
+		69E489B91BFE2E69000C68C1 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69E489B51BFE2E69000C68C1 /* TwitterKitResources.bundle */; };
+		69E489BA1BFE2E69000C68C1 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E489B61BFE2E69000C68C1 /* TwitterCore.framework */; };
+		69F4B4D81BF683BD0036F590 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F4B4D71BF683BD0036F590 /* AddressBook.framework */; };
+		69F4B4DA1BF683C20036F590 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F4B4D91BF683C20036F590 /* StoreKit.framework */; };
+		69F4B4DC1BF683C90036F590 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F4B4DB1BF683C90036F590 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +75,27 @@
 		6900D5971BF4E20200CB8545 /* conpectLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = conpectLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6900D59B1BF4E20200CB8545 /* conpectLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = conpectLoginUITests.m; sourceTree = "<group>"; };
 		6900D59D1BF4E20200CB8545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6900D5A91BF4E5F000CB8545 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		6900D5AA1BF4E5F000CB8545 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		6900D5AF1BF4EFCC00CB8545 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		6900D5B01BF4EFCC00CB8545 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6900D5B31BF4FA7300CB8545 /* AuthenticatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticatedViewController.h; sourceTree = "<group>"; };
+		6900D5B41BF4FA7300CB8545 /* AuthenticatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticatedViewController.m; sourceTree = "<group>"; };
+		6900D5B71BF5470800CB8545 /* FBSDKController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKController.h; sourceTree = "<group>"; };
+		6900D5B81BF5470800CB8545 /* FBSDKController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKController.m; sourceTree = "<group>"; };
+		69696FF81C04F4C600CCF629 /* TwitterLoginControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLoginControllerTests.m; sourceTree = "<group>"; };
+		69696FFF1C05091D00CCF629 /* FBSDKControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSDKControllerTests.m; sourceTree = "<group>"; };
+		698E87CB1BFE6B7900185002 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		698E87CC1BFE6B7900185002 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		69E489AF1BFE19D7000C68C1 /* TwitterLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginController.h; sourceTree = "<group>"; };
+		69E489B01BFE19D7000C68C1 /* TwitterLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLoginController.m; sourceTree = "<group>"; };
+		69E489B31BFE2E69000C68C1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		69E489B41BFE2E69000C68C1 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		69E489B51BFE2E69000C68C1 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		69E489B61BFE2E69000C68C1 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		69F4B4D71BF683BD0036F590 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		69F4B4D91BF683C20036F590 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		69F4B4DB1BF683C90036F590 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +103,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F4B4DC1BF683C90036F590 /* SystemConfiguration.framework in Frameworks */,
+				69F4B4DA1BF683C20036F590 /* StoreKit.framework in Frameworks */,
+				69F4B4D81BF683BD0036F590 /* AddressBook.framework in Frameworks */,
+				6900D5B21BF4EFCC00CB8545 /* FBSDKLoginKit.framework in Frameworks */,
+				6900D5B11BF4EFCC00CB8545 /* FBSDKCoreKit.framework in Frameworks */,
+				69E489BA1BFE2E69000C68C1 /* TwitterCore.framework in Frameworks */,
+				69E489B71BFE2E69000C68C1 /* Fabric.framework in Frameworks */,
+				69E489B81BFE2E69000C68C1 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +118,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696970011C05096500CCF629 /* FBSDKCoreKit.framework in Frameworks */,
+				696970021C05096500CCF629 /* FBSDKLoginKit.framework in Frameworks */,
+				69696FFB1C05070000CCF629 /* Fabric.framework in Frameworks */,
+				69696FFC1C05070000CCF629 /* TwitterKit.framework in Frameworks */,
+				69696FFD1C05070000CCF629 /* TwitterCore.framework in Frameworks */,
+				69696FFE1C05070000CCF629 /* TwitterKitResources.bundle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +140,9 @@
 		6900D5671BF4E20200CB8545 = {
 			isa = PBXGroup;
 			children = (
+				69F4B4DB1BF683C90036F590 /* SystemConfiguration.framework */,
+				69F4B4D91BF683C20036F590 /* StoreKit.framework */,
+				69F4B4D71BF683BD0036F590 /* AddressBook.framework */,
 				6900D5721BF4E20200CB8545 /* conpectLogin */,
 				6900D58F1BF4E20200CB8545 /* conpectLoginTests */,
 				6900D59A1BF4E20200CB8545 /* conpectLoginUITests */,
@@ -103,15 +163,21 @@
 		6900D5721BF4E20200CB8545 /* conpectLogin */ = {
 			isa = PBXGroup;
 			children = (
-				6900D5761BF4E20200CB8545 /* AppDelegate.h */,
-				6900D5771BF4E20200CB8545 /* AppDelegate.m */,
+				6900D5B61BF546E800CB8545 /* LoginManagers */,
+				6900D5B31BF4FA7300CB8545 /* AuthenticatedViewController.h */,
+				6900D5B41BF4FA7300CB8545 /* AuthenticatedViewController.m */,
 				6900D5791BF4E20200CB8545 /* ViewController.h */,
 				6900D57A1BF4E20200CB8545 /* ViewController.m */,
+				6900D5A91BF4E5F000CB8545 /* SignUpViewController.h */,
+				6900D5AA1BF4E5F000CB8545 /* SignUpViewController.m */,
 				6900D57C1BF4E20200CB8545 /* Main.storyboard */,
 				6900D5821BF4E20200CB8545 /* Assets.xcassets */,
 				6900D5841BF4E20200CB8545 /* LaunchScreen.storyboard */,
+				6900D5761BF4E20200CB8545 /* AppDelegate.h */,
+				6900D5771BF4E20200CB8545 /* AppDelegate.m */,
 				6900D5871BF4E20200CB8545 /* Info.plist */,
 				6900D57F1BF4E20200CB8545 /* conpectLogin.xcdatamodeld */,
+				6900D5AE1BF4EEA000CB8545 /* Frameworks */,
 				6900D5731BF4E20200CB8545 /* Supporting Files */,
 			);
 			path = conpectLogin;
@@ -129,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				6900D5901BF4E20200CB8545 /* conpectLoginTests.m */,
+				69696FF81C04F4C600CCF629 /* TwitterLoginControllerTests.m */,
+				69696FFF1C05091D00CCF629 /* FBSDKControllerTests.m */,
 				6900D5921BF4E20200CB8545 /* Info.plist */,
 			);
 			path = conpectLoginTests;
@@ -143,6 +211,48 @@
 			path = conpectLoginUITests;
 			sourceTree = "<group>";
 		};
+		6900D5AE1BF4EEA000CB8545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6900D5AF1BF4EFCC00CB8545 /* FBSDKCoreKit.framework */,
+				6900D5B01BF4EFCC00CB8545 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6900D5B61BF546E800CB8545 /* LoginManagers */ = {
+			isa = PBXGroup;
+			children = (
+				69E489781BFE1376000C68C1 /* External */,
+				6900D5B71BF5470800CB8545 /* FBSDKController.h */,
+				6900D5B81BF5470800CB8545 /* FBSDKController.m */,
+				69E489AF1BFE19D7000C68C1 /* TwitterLoginController.h */,
+				69E489B01BFE19D7000C68C1 /* TwitterLoginController.m */,
+			);
+			name = LoginManagers;
+			sourceTree = "<group>";
+		};
+		698E87CA1BFE6B6600185002 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				698E87CB1BFE6B7900185002 /* MBProgressHUD.h */,
+				698E87CC1BFE6B7900185002 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		69E489781BFE1376000C68C1 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				698E87CA1BFE6B6600185002 /* MBProgressHUD */,
+				69E489B31BFE2E69000C68C1 /* Fabric.framework */,
+				69E489B41BFE2E69000C68C1 /* TwitterKit.framework */,
+				69E489B51BFE2E69000C68C1 /* TwitterKitResources.bundle */,
+				69E489B61BFE2E69000C68C1 /* TwitterCore.framework */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +263,7 @@
 				6900D56C1BF4E20200CB8545 /* Sources */,
 				6900D56D1BF4E20200CB8545 /* Frameworks */,
 				6900D56E1BF4E20200CB8545 /* Resources */,
+				69E489B21BFE2E33000C68C1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -170,6 +281,7 @@
 				6900D5881BF4E20200CB8545 /* Sources */,
 				6900D5891BF4E20200CB8545 /* Frameworks */,
 				6900D58A1BF4E20200CB8545 /* Resources */,
+				69696FFA1C0506BB00CCF629 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -210,6 +322,7 @@
 				TargetAttributes = {
 					6900D56F1BF4E20200CB8545 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 45KG8S4U27;
 					};
 					6900D58B1BF4E20200CB8545 = {
 						CreatedOnToolsVersion = 7.1;
@@ -246,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E489B91BFE2E69000C68C1 /* TwitterKitResources.bundle in Resources */,
 				6900D5861BF4E20200CB8545 /* LaunchScreen.storyboard in Resources */,
 				6900D5831BF4E20200CB8545 /* Assets.xcassets in Resources */,
 				6900D57E1BF4E20200CB8545 /* Main.storyboard in Resources */,
@@ -268,14 +382,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69696FFA1C0506BB00CCF629 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run e4cb1d5816a500242a366d0da62cd904b125827c f54f487f67eff168ea817df54c7fdb212fce2f7cab6160a4f7dfedf4f06c9cb6";
+		};
+		69E489B21BFE2E33000C68C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run e4cb1d5816a500242a366d0da62cd904b125827c f54f487f67eff168ea817df54c7fdb212fce2f7cab6160a4f7dfedf4f06c9cb6";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6900D56C1BF4E20200CB8545 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6900D57B1BF4E20200CB8545 /* ViewController.m in Sources */,
+				6900D5AB1BF4E5F000CB8545 /* SignUpViewController.m in Sources */,
+				69E489B11BFE19D7000C68C1 /* TwitterLoginController.m in Sources */,
 				6900D5781BF4E20200CB8545 /* AppDelegate.m in Sources */,
+				698E87CD1BFE6B7900185002 /* MBProgressHUD.m in Sources */,
 				6900D5811BF4E20200CB8545 /* conpectLogin.xcdatamodeld in Sources */,
+				6900D5B91BF5470800CB8545 /* FBSDKController.m in Sources */,
+				6900D5B51BF4FA7300CB8545 /* AuthenticatedViewController.m in Sources */,
 				6900D5751BF4E20200CB8545 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +432,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69696FF91C04F4C600CCF629 /* TwitterLoginControllerTests.m in Sources */,
+				696970001C05091D00CCF629 /* FBSDKControllerTests.m in Sources */,
 				6900D5911BF4E20200CB8545 /* conpectLoginTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +567,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/conpectLogin",
+				);
 				INFOPLIST_FILE = conpectLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +587,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/conpectLogin",
+				);
 				INFOPLIST_FILE = conpectLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -439,6 +607,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/conpectLogin",
+				);
 				INFOPLIST_FILE = conpectLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLoginTests;
@@ -451,6 +623,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/conpectLogin",
+				);
 				INFOPLIST_FILE = conpectLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alliancetech.ConceptLogin.conpectLoginTests;
@@ -502,6 +678,7 @@
 				6900D5A21BF4E20200CB8545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6900D5A31BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +687,7 @@
 				6900D5A51BF4E20200CB8545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6900D5A61BF4E20200CB8545 /* Build configuration list for PBXNativeTarget "conpectLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +696,7 @@
 				6900D5A81BF4E20200CB8545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
